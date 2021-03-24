@@ -23,7 +23,10 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps. 
+First, I converted the images to grayscale, then I use gaussian_blur to smooth the image, then I detect the edges using Canny function, 
+at this point it is very important to export edges detected (as an image) to see if the lane lines are fully detected or not. As I was not satisfied with the manual Canny threshold 
+tuning I tried to find a way to automatically define those thresholds. The auto Canny  
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
