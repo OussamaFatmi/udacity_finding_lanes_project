@@ -35,7 +35,7 @@ Finally I draw lines on the picture, this is achieved by combining them with the
 
 
 
-![alt text][./library/workflow.jpg]
+![alt text](./library/workflow.jpg)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
